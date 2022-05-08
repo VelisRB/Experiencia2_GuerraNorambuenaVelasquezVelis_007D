@@ -151,3 +151,9 @@ div .contenido .post h1{
 #fotoc {
     text-align: center;
 }
+
+.formulario{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+}
