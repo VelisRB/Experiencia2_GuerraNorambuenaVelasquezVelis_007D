@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Sugerencias | Fourty Free</title>
+    <title>Personalizados | Fourty Free</title>
   </head>
 
   <body>
@@ -18,7 +18,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light p-2" id="menu">
     <div class="container-fluid">
         <a href="index.html"><img class="logo" src="img/logo.png"></a>
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="#">
             <span class="text-primary fs-5 fw-bold"> 40'Free </span>
         </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,11 +32,11 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="galeria.html">Catálogo</a>
+            <a class="nav-link" aria-current="page" href="galeria.html">Catalogo</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="aboutus.html">Quiénes somos</a>
+            <a class="nav-link" aria-current="page" href="aboutus.html">Quienes somos</a>
           </li>
 
           <li>
@@ -44,11 +44,11 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link alert-info" aria-current="page">Sugerencias</a>
+            <a class="nav-link" aria-current="page" href="sugerencias.html">Sugerencias</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="personalizados.html">Personalizados</a>
+            <a class="nav-link alert-info" aria-current="page">Personalizados</a>
           </li>
 
         </ul>
@@ -60,29 +60,32 @@
     </div>
   </nav>
   
+  <br> <p id="parrafo">Dale un toque especial a un accesorio que quieras comprar, <br>
+    solamente debes ingresar el producto que deseas, el nombre de tu mascota y nosotros <br>
+    haremos el resto, aunque por el momento sólo contamos con productos para tu fiel compañero perruno.</p> <br>
 
 <div class="formulario_css">
  <form action="" class="formulario" id="formulario">
   <div class="formulario__grupo "  id="grupo__nombre">
-    <label for="nombre" class="formulario__label">Nombre</label>
+    <label for="nombre" class="formulario__label">Nombre de tu fiel compañero</label>
   <div class="formulario__grupo-input">
-    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="ingrese su nombre">
+    <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="¿tu mascota se llama?">
     <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
   <p class="formulario__input-error">El Nombre solo puede contener letras y espacios</p>
   </div>
   </div>
 
   <div class="formulario__grupo" id="grupo__apellidos">
-  <label for="apellidos" class="formulario__label">Apellidos</label>
+  <label for="apellidos" class="formulario__label">Nombre del tutor</label>
   <div class="formulario__grupo-input">
-  <input type="text" class="formulario__input" name="apellidos" id="apellidos" placeholder="ingrese sus apellidos">
+  <input type="text" class="formulario__input" name="apellidos" id="apellidos" placeholder="ingresa tu nombre">
   <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
   <p class="formulario__input-error">Los apellidos solo puede contener letras y espacios</p>
   </div>
   </div>
  
   <div class="formulario__grupo" id="grupo__correo">
-  <label for="correo" class="formulario__label">Correo Electrónico</label>
+  <label for="correo" class="formulario__label">Correo Electronico</label>
   <div class="formulario__grupo-input">
   <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
   <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
@@ -91,22 +94,18 @@
   </div>
 
   <div class="formulario__grupo" id="grupo__telefono">
-  <label for="telefono" class="formulario__label">Teléfono</label>
+  <label for="telefono" class="formulario__label">Telefono</label>
   <div class="formulario__grupo-input">
-<<<<<<< HEAD
-  <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="ingrese su número telefónico">
-=======
   <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="+56">
->>>>>>> d283f27509afba0d3d5cef77d82fa191ecdb2b44
   <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
   <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14</p>
   </div>
   </div>
 
   <div class="formulario__grupo" id="grupo__sugerencias">
-  <label for="sugerencias" class="formulario__label">Sugerencias</label>
+  <label for="sugerencias" class="formulario__label">Descripción de tu pedido</label>
   <div class="formulario__grupo-input">
-  <input type="text" class="formulario__input" name="sugerencias" id="sugerencias" placeholder="ingrese sus sugerencias">
+  <input type="text" class="formulario__input" name="sugerencias" id="sugerencias" placeholder="cuentanos todos los detalles">
   
   
   </div>
@@ -118,18 +117,11 @@
   </div>
 
   <div class="formulario__grupo formulario__grupo-btn-enviar">
-  
-  <p onclick="formulario__btn('funciona')">  <button type="submit" class="formulario__btn">Enviar</button></p>
+  <button type="submit" class="formulario__btn">Cotizar</button>
   <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
   </div>
 
-  
-
-
-
   </form>
-  
-  <script type="text/javascript" src="js/eventos.js"></script>
 </div>
 
 
@@ -180,7 +172,7 @@
               Nicolás Norambuena
             </li>
             <li>
-              Paula Velásquez
+              Paula Velasquez
             </li>
             <li>
               Joaquin Velis
