@@ -252,6 +252,7 @@ div .contenido .post h1{
     border-radius: 3px;
     cursor: pointer;
     transition: .1s ease all;
+    padding-right: 60px;
 
 }
 
@@ -301,6 +302,11 @@ div .contenido .post h1{
 }
     .formulario__btn{
         width: 100%;
+        
     }
     
+}
+
+.nav-link:hover{
+    background: #0075FF;
 }

@@ -32,11 +32,11 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="galeria.html">Catalogo</a>
+            <a class="nav-link" aria-current="page" href="galeria.html">Catálogo</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="aboutus.html">Quienes somos</a>
+            <a class="nav-link" aria-current="page" href="aboutus.html">Quiénes somos</a>
           </li>
 
           <li>
@@ -78,7 +78,7 @@
   </div>
  
   <div class="formulario__grupo" id="grupo__correo">
-  <label for="correo" class="formulario__label">Correo Electronico</label>
+  <label for="correo" class="formulario__label">Correo Electrónico</label>
   <div class="formulario__grupo-input">
   <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
   <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
@@ -87,9 +87,9 @@
   </div>
 
   <div class="formulario__grupo" id="grupo__telefono">
-  <label for="telefono" class="formulario__label">Telefono</label>
+  <label for="telefono" class="formulario__label">Teléfono</label>
   <div class="formulario__grupo-input">
-  <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="ingrese su numero telefonico">
+  <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="ingrese su número telefónico">
   <i class="formulario__validacion-estado fa-solid fa-circle-xmark"></i>
   <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14</p>
   </div>
@@ -110,11 +110,18 @@
   </div>
 
   <div class="formulario__grupo formulario__grupo-btn-enviar">
-  <button type="submit" class="formulario__btn">Enviar</button>
+  
+  <p onclick="formulario__btn('funciona')">  <button type="submit" class="formulario__btn">Enviar</button></p>
   <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
   </div>
 
+  
+
+
+
   </form>
+  
+  <script type="text/javascript" src="js/eventos.js"></script>
 </div>
 
 
@@ -165,7 +172,7 @@
               Nicolás Norambuena
             </li>
             <li>
-              Paula Velasquez
+              Paula Velásquez
             </li>
             <li>
               Joaquin Velis

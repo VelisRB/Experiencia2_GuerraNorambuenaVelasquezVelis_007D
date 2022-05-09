@@ -22,4 +22,10 @@ button {
 .pd{
     margin-left: 50px;
 }
-  
+
+
+
+.pic iframe {
+    max-width: 100%;
+    height: auto;
+   }
